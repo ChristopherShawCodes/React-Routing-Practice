@@ -47,7 +47,7 @@ Use NavLink to pickup an ACTIVE class for styling
      );
     }
 
-    export default App;`
+    export default App;
 
 
 

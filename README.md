@@ -12,16 +12,16 @@ Use NavLink to pickup an ACTIVE class for styling
 
 
 
-`import './App.css';
-import {BrowserRouter, Routes, Route,NavLink} from 'react-router-dom'
-import Home from './Components/Home';
-import Number from './Components/Number'
-import Hello from './Components/Hello'
-import Custom from './Components/Custom'
+    import './App.css';
+    import {BrowserRouter, Routes, Route,NavLink} from 'react-router-dom'
+    import Home from './Components/Home';
+    import Number from './Components/Number'
+    import Hello from './Components/Hello'
+    import Custom from './Components/Custom'
 
 
-function App() {
-  return (
+    function App() {
+     return (
     <div className="App">
     
     <BrowserRouter>
@@ -43,16 +43,16 @@ function App() {
       </Routes>
     </BrowserRouter>
     </div>
-  );
-}
+     );
+    }
 
-export default App;`
+    export default App;`
 
 
 
 Custom.js
 
-    `import React from 'react'
+    import React from 'react'
     import {NavLink} from 'react-router-dom'
     import {useParams} from 'react-router'
 
@@ -75,4 +75,4 @@ Custom.js
     }
 
     export default Custom
-`
+

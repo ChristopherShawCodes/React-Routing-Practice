@@ -5,6 +5,7 @@ Javascript/Mern Stack Week 4
 
 Notes: 
 Use () when passing CSS style variable with inline styling (SEE BELOW)
+
 Use NavLink to pickup an ACTIVE class for styling
 
 
